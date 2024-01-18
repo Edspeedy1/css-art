@@ -1,3 +1,11 @@
+s = "69% 12%, 70% 15%, 73% 15%, 74% 23%, 77% 23%, 76% 29%, 81% 32%, 81% 37%, 77% 40%, 64% 43%, 45% 39%, 44% 40%, 43% 35%, 41% 38%, 40% 32%, 21% 5%);"
+nums = s.replace("%", "").split(", ")
+print(nums)
+for num in nums:    
+    n = num.split(" ")
+    print(int(n[1])*1.7333333)
+raise
+
 import pygame
 import math
 
